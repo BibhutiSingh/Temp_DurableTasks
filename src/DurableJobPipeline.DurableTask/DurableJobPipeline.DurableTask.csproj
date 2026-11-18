@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>DurableJobPipeline.DurableTask</RootNamespace>
+    <AssemblyName>DurableJobPipeline.DurableTask</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DurableJobPipeline.Core/DurableJobPipeline.Core.csproj" />
+    <PackageReference Include="Microsoft.DurableTask.Client" />
+    <PackageReference Include="Microsoft.DurableTask.Worker" />
+  </ItemGroup>
+</Project>

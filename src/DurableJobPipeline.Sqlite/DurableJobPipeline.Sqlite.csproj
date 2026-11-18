@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><RootNamespace>DurableJobPipeline.Sqlite</RootNamespace></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DurableJobPipeline.Core/DurableJobPipeline.Core.csproj" />
+    <PackageReference Include="Microsoft.Data.Sqlite" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+</Project>

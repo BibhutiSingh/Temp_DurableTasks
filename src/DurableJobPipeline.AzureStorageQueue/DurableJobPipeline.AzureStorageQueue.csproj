@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>DurableJobPipeline.AzureStorageQueue</RootNamespace>
+    <AssemblyName>DurableJobPipeline.AzureStorageQueue</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DurableJobPipeline.Core/DurableJobPipeline.Core.csproj" />
+    <PackageReference Include="Azure.Storage.Queues" />
+    <PackageReference Include="Azure.Identity" />
+  </ItemGroup>
+</Project>

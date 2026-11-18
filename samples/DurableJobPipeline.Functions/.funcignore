@@ -1,0 +1,6 @@
+local.settings.json
+*.user
+*.suo
+.vs/
+.git/
+.gitignore

@@ -1,0 +1,22 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "extensions": {
+    "durableTask": {
+      "hubName": "DjpTaskHub"
+    },
+    "queues": {
+      "batchSize": 8,
+      "newBatchThreshold": 4,
+      "visibilityTimeout": "00:05:00",
+      "maxDequeueCount": 5
+    }
+  }
+}

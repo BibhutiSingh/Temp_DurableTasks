@@ -1,0 +1,7 @@
+using './main.bicep'
+
+param environmentName = 'djp-dev'
+param location = 'centralindia'
+param resourceGroupName = 'rg-djp-dev'
+param maximumInstanceCount = 40
+param instanceMemoryMB = 2048

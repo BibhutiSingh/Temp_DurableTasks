@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12009.203 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.Core", "src\DurableJobPipeline.Core\DurableJobPipeline.Core.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.DurableTask", "src\DurableJobPipeline.DurableTask\DurableJobPipeline.DurableTask.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.AzureFunctions", "src\DurableJobPipeline.AzureFunctions\DurableJobPipeline.AzureFunctions.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.AzureStorage", "src\DurableJobPipeline.AzureStorage\DurableJobPipeline.AzureStorage.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.AzureStorageQueue", "src\DurableJobPipeline.AzureStorageQueue\DurableJobPipeline.AzureStorageQueue.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.Sqlite", "src\DurableJobPipeline.Sqlite\DurableJobPipeline.Sqlite.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.Functions", "samples\DurableJobPipeline.Functions\DurableJobPipeline.Functions.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.PipelineSetup", "samples\DurableJobPipeline.PipelineSetup\DurableJobPipeline.PipelineSetup.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableJobPipeline.Tests", "tests\DurableJobPipeline.Tests\DurableJobPipeline.Tests.csproj", "{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0A4D1A-4CFB-46A5-9C4B-1D5F77F1A009}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
